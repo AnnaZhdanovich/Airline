@@ -1,0 +1,282 @@
+2016-10-10T12:08:32,558 [ERROR] (FactoryPlane.java:33) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T12:08:32,590 [ERROR] (FactoryPlane.java:33) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T12:08:32,595 [ERROR] (FactoryPlane.java:33) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T12:08:32,597 [ERROR] (FactoryPlane.java:33) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T12:08:32,601 [ERROR] (FactoryPlane.java:33) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T12:08:32,605 [ERROR] (FactoryPlane.java:35) - Not known type produced plane
+java.lang.IllegalArgumentException: No enum constant by.zhdanovich.air.type.TypePlane.FRETER
+	at java.lang.Enum.valueOf(Unknown Source) ~[?:1.8.0_91]
+	at by.zhdanovich.air.type.TypePlane.valueOf(TypePlane.java:1) ~[bin/:?]
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:22) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:07:24,169 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:07:24,197 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:07:24,202 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:07:24,204 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:07:24,207 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:07:24,213 [ERROR] (StartProject.java:35) - RuntimeException:
+java.lang.IllegalArgumentException: No enum constant by.zhdanovich.air.type.TypePlane.FRETER
+	at java.lang.Enum.valueOf(Unknown Source) ~[?:1.8.0_91]
+	at by.zhdanovich.air.type.TypePlane.valueOf(TypePlane.java:1) ~[bin/:?]
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:22) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) ~[bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:08:15,277 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:08:15,301 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:08:15,309 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:08:15,311 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:08:15,313 [ERROR] (FactoryPlane.java:32) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-10T23:08:15,316 [ERROR] (StartProject.java:35) - RuntimeException:
+java.lang.IllegalArgumentException: No enum constant by.zhdanovich.air.type.TypePlane.FRETER
+	at java.lang.Enum.valueOf(Unknown Source) ~[?:1.8.0_91]
+	at by.zhdanovich.air.type.TypePlane.valueOf(TypePlane.java:1) ~[bin/:?]
+	at by.zhdanovich.air.parser.Validator.validation(Validator.java:22) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:18) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:26) ~[bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:26) [bin/:?]
+2016-10-11T14:19:58,736 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: wrong input data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,805 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,808 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,813 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,814 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,816 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,819 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: wrong input data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:19:58,825 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: wrong input data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:14) [bin/:?]
+2016-10-11T14:26:00,660 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Wrong input data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,679 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,681 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,686 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,688 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,690 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Not enough data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,693 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Wrong input data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-11T14:26:00,697 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongBackgroundException: Wrong input data
+	at by.zhdanovich.air.validator.Validator.validation(Validator.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:25) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:13) [bin/:?]
+2016-10-12T10:33:36,891 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Wrong input data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,927 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Not enough data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,930 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Not enough data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,933 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Not enough data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,935 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Not enough data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,937 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Not enough data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:19) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,940 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Wrong input data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
+2016-10-12T10:33:36,944 [ERROR] (FactoryPlane.java:31) - Error source data
+by.zhdanovich.air.exception.WrongDataException: Wrong input data
+	at by.zhdanovich.air.validator.ValidatorText.validation(ValidatorText.java:27) ~[bin/:?]
+	at by.zhdanovich.air.parser.ParserText.parseText(ParserText.java:13) ~[bin/:?]
+	at by.zhdanovich.air.creator.FactoryPlane.createPlanes(FactoryPlane.java:25) [bin/:?]
+	at by.zhdanovich.air.performer.PerformerTask.doAction(PerformerTask.java:22) [bin/:?]
+	at by.zhdanovich.air.start.StartProject.main(StartProject.java:15) [bin/:?]
