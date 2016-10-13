@@ -15,8 +15,6 @@ PerformerTask performer = new PerformerTask();
 			performer.doAction();
 		} catch (NoPlaneException e) {
 			log.error("Can not create aircompany", e);	
-		}catch (RuntimeException e) {
-			log.error("File of data do not found", e);	
 		}
 	}	
 }

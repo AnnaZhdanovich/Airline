@@ -25,7 +25,7 @@ public class ActionAirCompanyTest {
     company.addPlane(new Airliner(231, 2300, 1800, 27,2));
     }
 	action = new ActionAirCompany();
-		}
+	}
 	@AfterClass
 	public static void clear(){
 		company=null;
@@ -57,8 +57,7 @@ public class ActionAirCompanyTest {
 		expectedComany.addPlane(new Airliner(231, 2300, 1800, 27,2));	
 		expectedComany.addPlane(new Airliner(250, 1800, 2330, 22,1));		
 	    expectedComany.addPlane(new Airliner(333, 2860, 2800, 15,3));
-	    expectedComany.addPlane(new Freighter(88, 4000, 3000, 20,6));
-	    
+	    expectedComany.addPlane(new Freighter(88, 4000, 3000, 20,6));	    
 		action.sortCompany(company);
 		Assert.assertEquals(expectedComany.getPlanes(), company.getPlanes()); 
 	}

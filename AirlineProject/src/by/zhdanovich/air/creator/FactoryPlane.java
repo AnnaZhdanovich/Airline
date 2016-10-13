@@ -29,6 +29,8 @@ public List<Plane> createPlanes(List <String> list){
 		idPlane++;
 	} catch (WrongDataException e) {
 		log.error("Error source data", e);	
+	}catch (IllegalArgumentException e){
+		log.error("Error source data", e);
 	}
 	}
 	return planes;	

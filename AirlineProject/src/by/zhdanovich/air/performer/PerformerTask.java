@@ -9,11 +9,11 @@ import by.zhdanovich.air.exception.NoPlaneException;
 import by.zhdanovich.air.reader.ReaderText;
 
 
-public class PerformerTask {		
-public static final String FILE_DATA="text/data.txt";
+public class PerformerTask {
+	
+private final String FILE_DATA="text/data.txt";
 
 public void doAction() throws NoPlaneException{
-final String NAME_AIR_COMPANY= "FORTUNE";
 ReaderText reader = new ReaderText();
 FactoryPlane factory = new FactoryPlane();
 List<String> list = reader.readText(FILE_DATA);
@@ -22,7 +22,7 @@ AirCompany company;
 	if(planes.isEmpty()){
 			throw new NoPlaneException("List of planes is empty, company can not be creatd");		
 	}else{	
-		company = new AirCompany(NAME_AIR_COMPANY);
+		company = new AirCompany();
 		company.addPlanes(planes);
 		}	
 	this.showReport(company);
@@ -38,15 +38,12 @@ System.out.println("<<<<Result of Sorting by distanñe:");
 	System.out.println("<<<<Totaly Carrying:"+" "+ action.calculationOfCarrying(company) );
 	System.out.println("<<<<Totaly Capacity:"+" "+action.calculationOfCapacity(company) );	
 	System.out.println("<<<<Search by fuel consumption:");		
-	List<Plane> result = action.searchPlane(company, 10, 1000);
-	if (result.isEmpty()){
-		System.out.println("On the request nothing has been found");
-	}else{
+	List<Plane> result = action.searchPlane(company, 10, 1000);	
 	for(Plane p:result){
 		System.out.println(p);			
 	}
 	}
 
 }
-}
+
 
