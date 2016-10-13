@@ -10,12 +10,12 @@ import by.zhdanovich.air.type.TypePlane;
 public class ValidatorText {
 	
 public final String REGULAR_EXPRESSION= "[0-9]+";
-
+public final int  QUANTITY_DATA = 6;
 public List<Integer> validation(String[] numbers) throws WrongDataException{
 	Pattern p;
 	Matcher m;
 	List<Integer> list;
-	if (numbers.length<6){	
+	if (numbers.length<QUANTITY_DATA){	
 		   throw new WrongDataException("Not enough data");  
     }	   	
 	list = new ArrayList<Integer>();
@@ -26,7 +26,7 @@ public List<Integer> validation(String[] numbers) throws WrongDataException{
 	}catch (IllegalArgumentException e){
 		 throw new WrongDataException("Wrong input data");
 	}			
-	 for (int k = 1; k<6; k++){  			 
+	 for (int k = 1; k<QUANTITY_DATA; k++){  			 
 	  p = Pattern.compile(REGULAR_EXPRESSION);
 	  m = p.matcher(numbers[k]);		   
 	 if(m.matches()) {

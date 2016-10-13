@@ -1,29 +1,33 @@
 package by.zhdanovich.air.reader;
-
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ReaderText {
-	private static Logger log = LogManager.getLogger(ReaderText.class);	
+private static Logger log = LogManager.getLogger(ReaderText.class);	
 	
 public List<String> readText(String fileName){	
-	List<String> list = null;
+	List<String> list =new ArrayList<String>();
+	String line;
+	Scanner scanner = null;	
 	try {
-		 list = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);	
-	  	
+		scanner = new Scanner(new FileReader(fileName));
+	    while (scanner.hasNext()) {
+	      line = scanner.nextLine();
+	      list.add(line);
+	}		
 	}catch (FileNotFoundException e) {	
-		   log.fatal("file was not found", e); 	
-		   throw new RuntimeException();
-	} catch (IOException e) {	
-		   log.error("IOException:", e); 
-	}	
+	log.fatal("File was not found", e);
+		 throw new RuntimeException();
+	}finally {
+		 if (scanner != null) {
+		 scanner.close();} 
+	 } 	
 	return list;
 	}
 }	

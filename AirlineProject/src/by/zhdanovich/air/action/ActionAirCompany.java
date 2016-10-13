@@ -24,7 +24,7 @@ public int calculationOfCarrying(AirCompany company){
 public void sortCompany(AirCompany company){
 	company.getPlanes().sort(new Comparator<Plane>(){ 
 		public int compare(Plane o1, Plane o2) {        
-        return o1.getFuelConsumption()-o2.getFuelConsumption();
+        return o1.getDistance() - o2.getDistance();
       }		
 	});
 }

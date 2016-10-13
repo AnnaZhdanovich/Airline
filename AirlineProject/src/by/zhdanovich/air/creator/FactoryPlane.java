@@ -18,15 +18,15 @@ public List<Plane> createPlanes(List <String> list){
 	ParserText parser = new ParserText();
 	List<Plane> planes = new ArrayList<Plane>();
 	Plane p;
-	int i = 1;
-	List<Integer> parametrs;
+	int idPlane = 1;
+	List<Integer> parametrs;	
 	for(String s: list){		
 	try {
 		parametrs = parser.parseText(s);		
-		parametrs.add(6,i);		
+		parametrs.add(6,idPlane);		
 		p = this.createPlane(parametrs);
 		planes.add(p);
-		i++;
+		idPlane++;
 	} catch (WrongDataException e) {
 		log.error("Error source data", e);	
 	}
@@ -42,7 +42,7 @@ public Plane createPlane(List<Integer> background) throws WrongDataException{
 	   case 1:
 		       return  new Freighter(background.get(1),background.get(2), background.get(3), background.get(4), background.get(5), background.get(6));
 		   
-	   default: throw new WrongDataException("Data are wrong");
+	   default: throw new WrongDataException("Data are wrong, this type of plane does not exist ");
 	   }  
 }
 }
